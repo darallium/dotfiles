@@ -1,3 +1,6 @@
 !wezterm/
 !wezterm/*
 
+!git/
+!git/*
+

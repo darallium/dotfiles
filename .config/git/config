@@ -1,0 +1,25 @@
+[core]
+        repositoryformatversion = 0
+        filemode = false
+        bare = false
+        logallrefupdates = true
+        symlinks = false
+        ignorecase = true
+[alias]
+        co = checkout
+        s = status
+        ss = status -s
+        br = branch
+        brren = branch -m
+        brrm = branch -d
+        ae = add -u
+        au = add -u -p
+        cm = commit -m
+        mgff = merge --ff -d
+        l1 = log -1
+        commit = commit -S
+[user]
+        email = annihilation0504@gmail.com
+        name = darallium
+[push]
+	autoSetupRemote = true
