@@ -1,3 +1,5 @@
 *
+**/**
 !.gitignore
-!.wezterm.lua
+!.config/
+!.config/.gitignore
