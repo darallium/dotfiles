@@ -5,6 +5,7 @@
         logallrefupdates = true
         symlinks = false
         ignorecase = true
+  autocrlf = input
 [alias]
         co = checkout
         s = status

@@ -2,5 +2,7 @@
 !wezterm/*
 
 !git/
-!git/*
+!git/**
 
+!neovim/
+!neovim/**
