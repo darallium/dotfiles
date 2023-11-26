@@ -1,15 +1,24 @@
 global = require('core.global')
 local global_local = {
 	-- みため
-	number = true,
 	whichwrap = "b,s,h,l,<,>,[,],~",
 
+  
+  -- encoding
+  encoding = "utf-8",
+  fileencoding = "utf-8",
+  fileencodings = "utf-8, cp932, euc-jp",
 
 	-- tabs = インデント
 	expandtab = true,
 	shiftwidth = 2,
 	softtabstop = 2,
 	tabstop = 2,
+  autoindent = true,
+
+  -- 行番号
+  number = true,
+  numberwidth = 2,
 
 	-- 元に戻す
 	undofile = true,
@@ -17,6 +26,22 @@ local global_local = {
 
 	-- 補完
 	wildignorecase = true,
+
+  -- 検索
+  ignorecase = false,
+  noignorecase = true,
+  hlsearch = true,
+  incsearch = true,
+
+  -- ファイル操作
+  autoread = true,
+
+  backup = true,
+  backupdir = global.backup_dir,
+  writebackup = false,
+  
+  undofile = true,
+  undodir = global.backup_dir,
 
 }
 for key, value in pairs(global_local) do
