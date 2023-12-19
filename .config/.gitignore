@@ -1,3 +1,24 @@
 !wezterm/
 !wezterm/*
 
+!bottom/
+!/bottom/*
+
+!lsd/
+!lsd/*
+
+!baru/
+!bat/
+!gitui/
+!lsd2/
+!topgrade.d/
+!starship.toml
+!topgrade.toml
+
+!baru/*
+!bat/*
+!gitui/*
+!lsd2/*
+!topgrade.d/*
+!starship.toml
+!topgrade.toml

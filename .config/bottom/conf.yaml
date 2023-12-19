@@ -1,0 +1,46 @@
+[flags]
+rate = "1s"
+current_usage = true
+unnormalized_cpu = true
+group_processes = false
+case_sensitive = false
+whole_word = false
+regex = false
+hide_time = false
+default_widget_type = "proc"
+hide_table_gap = true
+battery = true
+color = "nord"
+mem_as_value = true
+tree = true
+process_command = true
+
+[[row]]
+  ratio=30
+  [[row.child]]
+  type="cpu"
+[[row]]
+  ratio=80
+  [[row.child]]
+    ratio=4
+    type="mem"
+  [[row.child]]
+    ratio=3
+    [[row.child.child]]
+      type="process"
+[[row]]
+  ratio=30
+  [[row.child]]
+    type="net"
+  [[row.child]]
+    type="disk"
+    default=true
+
+[mount_filter]
+is_list_ignored = true
+list = ["/mnt/.*", "/boot"]
+regex = true
+case_sensitive = false
+whole_word = false
+
+
