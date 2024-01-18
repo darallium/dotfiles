@@ -1,6 +1,7 @@
 !wezterm/
 !wezterm/*
 
+
 !bottom/
 !/bottom/*
 
@@ -22,3 +23,4 @@
 !topgrade.d/*
 !starship.toml
 !topgrade.toml
+
