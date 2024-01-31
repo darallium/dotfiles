@@ -1,0 +1,21 @@
+max-threads = 10
+page-requisites = on
+random-wait = on
+progress = bar
+
+reject-regex = ".*index.html.+"
+restrict-file-names = windows
+retry-on-http-error = on
+robots = off
+
+timestamping = on
+tries = 10
+wait = 5
+xattr = on
+waitretry = 15
+
+
+#http
+auth-no-challenge = on
+compression = on
+user-agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"

@@ -19,8 +19,6 @@ Import-Module Catppuccin
 
 $Flavor = $Catppuccin['Mocha']
 
-$Flavor.Table()
-
 Write-Host $Flavor.Blocks()
 
 $Colors = $null

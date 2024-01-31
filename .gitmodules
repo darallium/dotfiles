@@ -1,3 +1,6 @@
 [submodule ".config/windows-terminal/catppuccin"]
 	path = .config/windows-terminal/catppuccin
 	url = https://github.com/catppuccin/windows-terminal
+[submodule ".config/glaze-wm/glazewm"]
+	path = .config/glaze-wm/glazewm
+	url = https://github.com/catppuccin/glazewm
