@@ -143,22 +143,27 @@ window_rules:
 
   # default float 
   - command: "set floating"
-    match_title: ".*"
+    match_title: "/.*/"
 
-  # bind to specified workspace
+  #bind to specified workspace
   - command: "move to workspace work"
-    match_process_name: &works "CLion|clion64|Code"
+    match_process_name: &works "Code"
   - command: "set tiling"
     match_process_name: *works
+
+  - command: "move to workspace work"
+    match_process_name: "/.*(CLion|JetBrains).*/"
+
   - command: "move to workspace comm"
-    match_process_name: &comms "Discord|LINE|Slack|LimeChat"
+    match_process_name: &comms "/Discord|LINE|Slack|LimeChat/"
   - command: "set tiling"
     match_process_name: *comms
 
   - command: "move to workspace ref"
     match_process_name: &refs "sumatraPDF"
 
-
+  - command: "set tiling"
+    match_process_name:  *refs
 
   # Some applications (eg. Steam) have borders that extend past the normal border size.
   - command: "resize borders 0px -7px -7px -7px"
