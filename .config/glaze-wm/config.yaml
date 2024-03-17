@@ -27,7 +27,7 @@ crust: &crust "#181926"
 
 general:
   # Whether to automatically focus windows underneath the cursor.
-  focus_follows_cursor: true
+  focus_follows_cursor: false
 
   # Whether to jump the cursor between windows focused by the WM.
   cursor_follows_focus: true
@@ -37,18 +37,18 @@ general:
   toggle_workspace_on_refocus: true
 
   # Whether to show floating windows as always on top.
-  show_floating_on_top: true
+  show_floating_on_top: false
 
   # Amount to move floating windows by (eg. when using `alt+<hjkl>` on a floating window)
   floating_window_move_amount: "5%"
 
   # Whether to center new floating windows.
-  center_new_floating_windows: true
+  center_new_floating_windows: false
 
   # *Strongly* recommended to set to 'false'. Whether to globally enable/disable
   # window transition animations (on minimize, close, etc). Set to 'unchanged'
   # to make no setting changes.
-  window_animations: "unchanged"
+  window_animations: "false"
 
 gaps:
   # Gap between adjacent windows.
@@ -68,7 +68,8 @@ focus_borders:
     enabled: false
     color: *base
 
-horiz_bar: &horizontal_bar
+#horiz_bar: &horizontal_bar
+bar:
   height: "30px"
   position: "top"
   opacity: 1.0
@@ -76,9 +77,9 @@ horiz_bar: &horizontal_bar
   foreground: *pink
   font_family: "Space Mono Pro"
   font_size: "18px"
-  padding: "0px 8px 0px 8px"
+  padding: "00px 8px 0px 8px"
   offset_x: "30"
-  offset_y: "-2"
+  offset_y: "00"
   border_radius: "15"
   border_color: *pink
   border_width: 2
@@ -102,7 +103,7 @@ horiz_bar: &horizontal_bar
       margin: "0 4px 0 0"
       padding: "0 8px"
   components_right:
-    - type: "system tray"
+    #    - type: "system tray"
     - type: "tiling direction"
       label_horizontal: "-"
       label_vertical: "|"
@@ -112,15 +113,20 @@ horiz_bar: &horizontal_bar
       padding: "6px 8px 6px 8px"
     - type: "binding mode"
       background: *surface1
-vert_bar: &vertical_bar
-  <<: *horizontal_bar
+# 
+# vert_bar: &vertical_bar
+#   <<: *horizontal_bar
+# 
+# bars:
+#   - bind_to_monitor: 1
+#     <<: *horizontal_bar
 
-bars: 
-  - bind_to_monitor: 1
-    <<: *vertical_bar
 
 workspaces:
   - name: "default"
+    bind_to_monitor: 2
+  - name: "default2"
+    bind_to_monitor: 1
   - name: "work"
   - name: "comm"
   - name: "ref"
@@ -152,7 +158,7 @@ window_rules:
     match_process_name: *works
 
   - command: "move to workspace work"
-    match_process_name: "/.*(CLion|JetBrains).*/"
+    match_process_name: "/.*(CLion|Webstorm|JetBrains).*/"
 
   - command: "move to workspace comm"
     match_process_name: &comms "/Discord|LINE|Slack|LimeChat/"
@@ -188,33 +194,33 @@ binding_modes:
 keybindings:
   # Shift focus in a given direction.
   - command: "focus left"
-    bindings: ["Alt+H", "Alt+Left"]
+    bindings: ["Ctrl+F9"]
   - command: "focus right"
-    bindings: ["Alt+L", "Alt+Right"]
+    bindings: ["Ctrl+F12"]
   - command: "focus up"
-    bindings: ["Alt+K", "Alt+Up"]
+    bindings: ["Ctrl+F11"]
   - command: "focus down"
-    bindings: ["Alt+J", "Alt+Down"]
+    bindings: ["Ctrl+F10"]
 
   # Move focused window in a given direction.
   - command: "move left"
-    bindings: ["Alt+Shift+H", "Alt+Shift+Left"]
+    bindings: ["Ctrl+Shift+F9"]
   - command: "move right"
-    bindings: ["Alt+Shift+L", "Alt+Shift+Right"]
+    bindings: ["Ctrl+Shift+F12"]
   - command: "move up"
-    bindings: ["Alt+Shift+K", "Alt+Shift+Up"]
+    bindings: ["Ctrl+Shift+F11"]
   - command: "move down"
-    bindings: ["Alt+Shift+J", "Alt+Shift+Down"]
+    bindings: ["Ctrl+Shift+F10"]
 
   # Resize focused window by a percentage or pixel amount.
   - command: "resize width -2%"
-    binding: "Alt+U"
+    binding: "Alt+Shift+P"
   - command: "resize width +2%"
     binding: "Alt+P"
   - command: "resize height +2%"
     binding: "Alt+O"
   - command: "resize height -2%"
-    binding: "Alt+I"
+    binding: "Alt+Shift+O"
 
   # As an alternative to the resize keybindings above, resize mode enables resizing via
   # HJKL or arrow keys. The binding mode is defined above with the name "resize".
@@ -249,11 +255,6 @@ keybindings:
   - command: "reload config"
     binding: "Alt+Shift+R"
 
-  # Launch CMD terminal (alternatively `exec wt` or `exec %ProgramFiles%/Git/git-bash.exe`
-  # to start Windows Terminal and Git Bash respectively.
-  - command: "exec cmd"
-    binding: "Alt+Enter"
-
   # Focus the workspace that last had focus.
   - command: "focus workspace recent"
     binding: "Alt+Y"
@@ -267,6 +268,8 @@ keybindings:
   # Change focus to a workspace defined in `workspaces` config.
   - command: "focus workspace default"
     binding: "Alt+0"
+  - command: "focus workspace default2"
+    binding: "Alt+9"
   - command: "focus workspace work"
     binding: "Alt+1"
   - command: "focus workspace comm"
@@ -283,8 +286,6 @@ keybindings:
     binding: "Alt+7"
   - command: "focus workspace 8"
     binding: "Alt+8"
-  - command: "focus workspace 9"
-    binding: "Alt+9"
 
   # Move focused workspace to a monitor in a given direction.
   - command: "move workspace left"
@@ -310,3 +311,4 @@ keybindings:
     binding: "Alt+Shift+8"
   - commands: ["move to workspace 9"]
     bindings: ["Alt+Shift+9"]
+

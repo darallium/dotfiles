@@ -1,19 +1,5 @@
 Import-Module posh-git
-$global:GitPromptSettings.BeforeStatus = '['
-$global:GitPromptSettings.AfterStatus  = '] '
-function prompt {
-    $origLastExitCode = $LASTEXITCODE
-    Write-VcsStatus
-    Write-Host $ExecutionContext.SessionState.Path.CurrentLocation -ForegroundColor Green
-    $LASTEXITCODE = $origLastExitCode
-    "$('>' * ($nestedPromptLevel + 1)) "
-    if ($?) {
-        Write-Host " (*'-')"  -NoNewLine -ForegroundColor "DarkGreen"
-    } else {
-        Write-Host " (*;-;)"  -NoNewLine -ForegroundColor "Red"
-    }
-    return ""
-}
+
 
 Import-Module Catppuccin
 
@@ -51,3 +37,16 @@ $Colors = @{
 
 # Set the colours
 Set-PSReadLineOption -Colors $Colors
+function prompt {
+    $origLastExitCode = $LASTEXITCODE
+    Write-VcsStatus
+    Write-Host $ExecutionContext.SessionState.Path.CurrentLocation -ForegroundColor Green
+    $LASTEXITCODE = $origLastExitCode
+    "$('>' * ($nestedPromptLevel + 1)) "
+    if ($?) {
+        Write-Host " (*'-')"  -NoNewLine -ForegroundColor "DarkGreen"
+    } else {
+        Write-Host " (*;-;)"  -NoNewLine -ForegroundColor "Red"
+    }
+    return ""
+}

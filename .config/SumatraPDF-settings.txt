@@ -1,0 +1,2067 @@
+﻿# For documentation, see https://www.sumatrapdfreader.org/settings/settings3-5-1.html
+Theme = Light
+FixedPageUI [
+	TextColor = #CDD6F4
+	BackgroundColor = #1E1E2E
+	SelectionColor = #7F849C
+	WindowMargin = 2 4 2 4
+	PageSpacing = 4 4
+	InvertColors = false
+	HideScrollbars = false
+]
+ComicBookUI [
+	WindowMargin = 0 0 0 0
+	PageSpacing = 4 4
+	CbxMangaMode = false
+]
+ChmUI [
+	UseFixedPageUI = false
+]
+
+SelectionHandlers [
+]
+ExternalViewers [
+]
+
+ZoomLevels = 8.33 12.5 18 25 33.33 50 66.67 75 100 125 150 200 300 400 600 800 1000 1200 1600 2000 2400 3200 4800 6400
+ZoomIncrement = 0
+
+PrinterDefaults [
+	PrintScale = shrink
+]
+ForwardSearch [
+	HighlightOffset = 0
+	HighlightWidth = 15
+	HighlightColor = #6581ff
+	HighlightPermanent = false
+]
+Annotations [
+	HighlightColor = #ffff00
+	UnderlineColor = #00ff00
+	SquigglyColor = #ff00ff
+	StrikeOutColor = #ff0000
+	FreeTextColor = 
+	FreeTextSize = 12
+	FreeTextBorderWidth = 1
+	TextIconColor = 
+	TextIconType = 
+	DefaultAuthor = 
+]
+
+RememberOpenedFiles = true
+RememberStatePerDocument = true
+RestoreSession = true
+UiLanguage = ja
+EnableTeXEnhancements = false
+DefaultDisplayMode = automatic
+DefaultZoom = fit page
+Shortcuts [
+]
+EscToExit = false
+ReuseInstance = false
+ReloadModifiedDocuments = true
+
+MainWindowBackground = #80fff200
+FullPathInTitle = false
+ShowMenubar = true
+ShowToolbar = true
+ShowFavorites = false
+ShowToc = true
+NoHomeTab = false
+TocDy = 0
+SidebarDx = 276
+ToolbarSize = 18
+TabWidth = 300
+TreeFontSize = 0
+TreeFontWeightOffset = 0
+TreeFontName = automatic
+SmoothScroll = false
+ShowStartPage = true
+CheckForUpdates = true
+WindowState = 1
+WindowPos = 3841 344 1918 1841
+UseTabs = true
+UseSysColors = false
+CustomScreenDPI = 0
+
+FileStates [
+	[
+		FilePath = D:\home\darallium\Downloads\RiST (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 3841 344 1918 1841
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\raspberry-pi-5-mechanical-drawing.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 10.6503 58.3503
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 961 204 1918 1841
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\b5442d4ce55bca1c_1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 961 204 1918 1841
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\v0.0.1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 356.537
+		PageNo = 4
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 961 204 1918 1841
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\雇用契約書兼労働条件通知書.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 736 127 1918 1840
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\源泉徴収票2023.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 195.282
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 159 45 1918 1841
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\RPK0401-001_20240312011651887.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 159 45 1918 1841
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\2024kagaihandobook.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 102.011
+		PageNo = 42
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 736 127 1918 1840
+		ShowToc = true
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\Hack_U_2024_OSAKA.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 452.293
+		PageNo = 13
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 736 127 1918 1840
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\How to start modern C++ project994159.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 254.41
+		PageNo = 12
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 3841 344 1918 1841
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\SPFC_v8_BR.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 640.317
+		PageNo = 4
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 3841 344 1918 1841
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\20230117ymiki.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 12.1712
+		PageNo = 26
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 961 57 1918 1840
+		ShowToc = true
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\OSC2022do-sunbit-20220625.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 961 57 1918 1840
+		ShowToc = true
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\vulkan_tutorial_en.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 3
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 371.438
+		PageNo = 47
+		Zoom = 200
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 961 57 1918 1840
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\2.1.4.9 Lab - Establishing a Console Session with Tera Term.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 961 57 1918 1840
+		ShowToc = true
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\RiST.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 3841 767 1918 1001
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\sr-s_324tl2-318tl3-310tl3-324ps1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 527.3
+		PageNo = 1
+		Zoom = 300
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1 96 3838 1027
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\dicectf2024.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2561 96 1278 2063
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\001211712.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1 96 3838 2063
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\UNZIP\UWB\20240123spring\slide.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 223.601
+		PageNo = 33
+		Zoom = 75
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2561 96 1278 2063
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\無題のスプレッドシート - シート1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 30.9839
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1 96 3838 2063
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\b5442d4ce55bca1c.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 106.202
+		PageNo = 5
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1 96 3838 2063
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\Ritsumeikan_Security_Team.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1 96 3838 2063
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\Docker_2_-_bREADER_Cloud.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 279.115
+		PageNo = 6
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2561 96 1278 2063
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\gakuikitei2019.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 37.4737
+		PageNo = 3
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2561 96 1278 2063
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\行き.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2561 96 1278 2063
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\帰り.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2561 96 1278 2063
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\goriyou324TL2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1 96 3838 2063
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 4 10 25 36 42 48 55
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\vulkan_tutorial_en.epub
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 719.399
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 3841 767 1918 1001
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\GLFWdraft.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 313.421
+		PageNo = 112
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 3841 767 1918 1001
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\J-SPIRV-Osaka.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 66.3572
+		PageNo = 19
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 3841 767 1918 1001
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\J-Vulkan-Ecosystem-Developer-Tools-Osaka.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 11
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 3841 767 1918 1001
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\Introduction_to_Vulkan_(日本語版).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 33.6653
+		PageNo = 46
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 3841 767 1918 1001
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\2024MC_Osaka_questions.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 972 43 1897 2063
+		ShowToc = true
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\2024MC_Osaka_senmon.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 760.264
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1433 601 974 1047
+		ShowToc = true
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\ダウンロード.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1429 35 2373 2118
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\192.168.0.5\c\tmp\download\sponsorship.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 255.23
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1965 96 1873 2063
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\20200609-mxt_jogai01-000007843_001.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous book view
+		ScrollPos = -1 823.44
+		PageNo = 2
+		Zoom = 125
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1941 96 1897 2063
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\20200609-mxt_jogai01-000007843_002.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 20
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1965 96 1873 2063
+		ShowToc = true
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\20200609-mxt_jogai01-000007843_003.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 20
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1965 96 1873 2063
+		ShowToc = true
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\20220809_nakayama.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1921 96 1918 2063
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\1407073_11_1_2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 25
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1921 96 1918 2063
+		ShowToc = true
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\20200609-mxt_jogai01-000007843_006.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 8
+		Zoom = 150
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1921 96 1918 2063
+		ShowToc = true
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\20200609-mxt_jogai01-000007843_005.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 299.363
+		PageNo = 43
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1921 96 1918 2063
+		ShowToc = true
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\20200609-mxt_jogai01-000007843_007.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 685.265
+		PageNo = 3
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1921 96 1918 2063
+		ShowToc = true
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\20200702-mxt_jogai01-000007843_004.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 29.2743
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1921 96 1918 2063
+		ShowToc = true
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\192.168.0.5\c\Users\h1j1k1\downloads\SAO1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1921 96 1918 2063
+		ShowToc = true
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\000098799.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 377.25
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 818 257 2205 1734
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\7takatsuki_drink.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 818 257 2205 1734
+		ShowToc = true
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\レポート課題2023.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 818 257 2205 1734
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\20240401kusatsuritsumeisen_donichisyuku.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1921 96 1918 2063
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\SKYMENUforStaff_function.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 61.0004
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1965 96 1873 2063
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\プログラミング言語_期末試験_点数分布.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1965 96 1873 2063
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\handbook-all.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 131.8
+		PageNo = 32
+		Zoom = 150
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1 1132 3837 1027
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\Reporthandbook0306_2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 137.701
+		PageNo = 2
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1 1132 3837 1027
+		ShowToc = false
+		SidebarDx = 276
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\IPSJ-MGN650201.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 339.985
+		PageNo = 2
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2561 94 1277 1028
+		ShowToc = false
+		SidebarDx = 150
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\000723626.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 433.35
+		PageNo = 4
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2561 94 1277 1028
+		ShowToc = false
+		SidebarDx = 150
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\mb_manual_b560-hd3_e_v1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 493.05
+		PageNo = 28
+		Zoom = 200
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1 94 1278 2065
+		ShowToc = true
+		SidebarDx = 150
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\mb_manual_b560-optane.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 56.2503
+		PageNo = 2
+		Zoom = 200
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1 94 1278 2065
+		ShowToc = false
+		SidebarDx = 150
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\report2022_4_ans.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 607.55
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1 94 1278 2065
+		ShowToc = false
+		SidebarDx = 150
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\report2023_4.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 125
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1 94 1278 2065
+		ShowToc = false
+		SidebarDx = 150
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = F:\efiflash SOP_MElock.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1 94 3838 2065
+		ShowToc = false
+		SidebarDx = 150
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\mb_manual_installation-guide_103.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2880 94 958 2065
+		ShowToc = false
+		SidebarDx = 150
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\mb_manual_b560-features.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 62.2503
+		PageNo = 15
+		Zoom = 200
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 2560 94 1278 2065
+		ShowToc = true
+		SidebarDx = 150
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\EW2880U_UM_JA_211220164540.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 106.688
+		PageNo = 37
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1 94 3838 2065
+		ShowToc = true
+		SidebarDx = 150
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\EW2880U_RF_JA_210823083541.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 205.07
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1 94 3838 2065
+		ShowToc = true
+		SidebarDx = 150
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\EW2880U_QG_G_221228125230.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1 94 3838 2065
+		ShowToc = false
+		SidebarDx = 150
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\EW2880U_Product Dimensions_V001_Others.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1 94 3838 2065
+		ShowToc = true
+		SidebarDx = 150
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\Eyecare UM_JA_231121125356.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 52.8435
+		PageNo = 3
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1 94 3838 2065
+		ShowToc = true
+		SidebarDx = 150
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\RF_JA_231122073858.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 6.9006 170.101
+		PageNo = 3
+		Zoom = 125
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 949 40 974 1043
+		ShowToc = true
+		SidebarDx = 164
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\UM_JA_230628164608.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 221.603
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 943 40 979 1047
+		ShowToc = true
+		SidebarDx = 150
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 31 40 47
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\QG_G_221228131031.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 455.025
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 943 40 979 1047
+		ShowToc = false
+		SidebarDx = 150
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Documents\wget\www.ngc.is.ritsumei.ac.jp - コピー\~ger\static\AQIS18\contents-online.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 4
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 40 974 1047
+		ShowToc = false
+		SidebarDx = 164
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\Sol3.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 40 974 1047
+		ShowToc = false
+		SidebarDx = 164
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\Microsoft アカウント _ BitLocker 回復キー.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 40 974 1047
+		ShowToc = false
+		SidebarDx = 164
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\Surface8BitLocker ドライブ暗号化の回復キー.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 40 974 1047
+		ShowToc = false
+		SidebarDx = 164
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\Sol5-3.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 40 974 1047
+		ShowToc = false
+		SidebarDx = 164
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\asfd8f9asd8f90123jklfadsfjaewiuvoiafaSirokumaDiary2019.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 71
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 40 974 1047
+		ShowToc = false
+		SidebarDx = 164
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Documents\wget\www.ngc.is.ritsumei.ac.jp\~ger\static\Daliang\%E3%80%90%E7%89%B9%E9%A1%982013-111129%E3%80%80%E5%85%AC%E9%96%8B%E5%85%AC%E5%A0%B1%E3%80%91.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 40 974 1047
+		ShowToc = true
+		SidebarDx = 164
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\OS09note.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 282.299
+		PageNo = 4
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 40 974 1047
+		ShowToc = false
+		SidebarDx = 164
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\OS11note.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 257.419
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 40 974 1047
+		ShowToc = false
+		SidebarDx = 164
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\2023-9.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -7 40 1000 1047
+		ShowToc = false
+		SidebarDx = 164
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\物理2report02.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 223.629
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 40 974 1047
+		ShowToc = false
+		SidebarDx = 164
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\report01ans(rev).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 434.005
+		PageNo = 3
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -7 40 1000 1047
+		ShowToc = false
+		SidebarDx = 164
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\test10.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 40 974 1047
+		ShowToc = false
+		SidebarDx = 164
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\中間試験の点数分布.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -7 40 1000 1047
+		ShowToc = false
+		SidebarDx = 164
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\2023-第2回実技試験v01.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -7 40 1000 1047
+		ShowToc = false
+		SidebarDx = 164
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\2024OIC_Student_Activity_Lounge.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -7 40 1000 1047
+		ShowToc = false
+		SidebarDx = 164
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\rx100_s8.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 135.625 99.8753
+		PageNo = 3
+		Zoom = 300
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -7 40 1000 1047
+		ShowToc = false
+		SidebarDx = 164
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\PROZ790-SWIFI.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 209
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -7 40 1000 1047
+		ShowToc = true
+		SidebarDx = 164
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\第14回講義資料.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 340 40 1201 1006
+		ShowToc = true
+		SidebarDx = 296
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\guidelines-ise.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 389.701
+		PageNo = 3
+		Zoom = 125
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 340 41 1201 1032
+		ShowToc = false
+		SidebarDx = 296
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\01.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 194.986
+		PageNo = 3
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 340 41 1201 1032
+		ShowToc = true
+		SidebarDx = 296
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\LC2023-all.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 98.2631
+		PageNo = 44
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 340 41 1201 1032
+		ShowToc = false
+		SidebarDx = 296
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\07_20131122.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 340 41 1201 1032
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\home\darallium\Downloads\33_2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 80.7006
+		PageNo = 2
+		Zoom = 125
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 340 41 1201 1032
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+]
+SessionData [
+	[
+		TabStates [
+			[
+				FilePath = D:\home\darallium\Downloads\SPFC_v8_BR.pdf
+				DisplayMode = continuous
+				PageNo = 4
+				Zoom = fit width
+				Rotation = 0
+				ScrollPos = -1 640.317
+				ShowToc = false
+			]
+			[
+				FilePath = D:\home\darallium\Downloads\How to start modern C++ project994159.pdf
+				DisplayMode = continuous
+				PageNo = 12
+				Zoom = fit page
+				Rotation = 0
+				ScrollPos = -1 254.41
+				ShowToc = false
+			]
+			[
+				FilePath = D:\home\darallium\Downloads\RiST (1).pdf
+				DisplayMode = continuous
+				PageNo = 1
+				Zoom = fit width
+				Rotation = 0
+				ScrollPos = -1 -1
+				ShowToc = false
+			]
+		]
+		TabIndex = 3
+		WindowState = 1
+		WindowPos = 3841 344 1918 1841
+		SidebarDx = 276
+	]
+]
+TimeOfLastUpdateCheck = 0 0
+OpenCountWeek = 688
+
+# Settings below are not recognized by the current version
+EbookUI [
+	FontName = Georgia
+	FontSize = 12.5
+	TextColor = #cad3f5
+	BackgroundColor = #24273a
+	UseFixedPageUI = false
+]
+RestoreSession = true
+EscToExit = false
+ReuseInstance = false
+ReloadModifiedDocuments = true
+MainWindowBackground = #80fff200
+FullPathInTitle = false
+ShowMenubar = true
+TabWidth = 300
+UseSysColors = false

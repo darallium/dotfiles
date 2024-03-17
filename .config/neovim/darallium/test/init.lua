@@ -27,7 +27,8 @@ require("lazy").setup("plugins", {
     rtp = {
 
     }
-  }
+  },
+  lockfile = vim.fn.stdpath("config") .. "/.lazy-lock.json",
 })
 
 

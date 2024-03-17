@@ -26,6 +26,9 @@ local global_local = {
 	relativenumber = true,
 	signcolumn = "yes:1",
 
+	-- 保管
+	completeopt = menuone,noinsert,
+
 
 	-- 元に戻す
 	undofile = true,
