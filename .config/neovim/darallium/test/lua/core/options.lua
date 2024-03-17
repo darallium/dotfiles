@@ -2,11 +2,11 @@ global = require('core.global')
 local global_local = {
 	-- みため
 	whichwrap = "b,s,h,l,<,>,[,],~",
-	noshowmode = true,
- termguicolors=true,
+	--noshowmode = true,
+ 	termguicolors=true,
 
- -- scroll
- scrolloff = 4,
+	-- scroll
+ 	scrolloff = 4,
 	
 	-- encoding
 	encoding = "utf-8",
